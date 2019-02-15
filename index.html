@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Adopt a dog !</title>
+	<meta name="description" content="A simple content slider with depth-like zoom functionality" />
+	<meta name="keywords" content="blueprint, template, slider, zoom, javascript, depth, 3d, css" />
+	<meta name="author" content="Codrops" />
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- Feather Icons -->
+	<link rel="stylesheet" type="text/css" href="fonts/feather/style.css">
+	<!-- General demo styles & header -->
+	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	<!-- Component styles -->
+	<link rel="stylesheet" type="text/css" href="css/component.css" />
+	<link rel="stylesheet" href="css/typo.css">
+	<script src="js/modernizr.custom.js"></script>
+</head>
+<body>
+	<!-- Main container -->
+	<div class="container">
+		<!-- Blueprint header -->
+		<header class="bp-header cf">
+			<span>The dog shelter </span>
+			<h1>Adopt a dog !</h1>
+			<nav>
+				<a href="http://tympanus.net/Blueprints/FilterableProductGrid/" class="bp-icon bp-icon-prev" data-info="previous Blueprint"><span>Previous Blueprint</span></a>
+				<!--a href="" class="bp-icon bp-icon-next" data-info="next Blueprint"><span>Next Blueprint</span></a-->
+				<a href="http://tympanus.net/codrops/?p=24330" class="bp-icon bp-icon-drop" data-info="back to the Codrops article"><span>back to the Codrops article</span></a>
+				<a href="http://tympanus.net/codrops/category/blueprints/" class="bp-icon bp-icon-archive" data-info="Blueprints archive"><span>Go to the archive</span></a>
+			</nav>
+		</header>
+		<!-- Grid -->
+		<section class="slider">
+			<div class="slide slide--current" data-content="content-1">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<img class="zoomer__image" src="images/milou.png" alt="milou" />
+						<div class="preview">
+							<div class="zoomer__area zoomer__area--size-2"></div>
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>The Tidy dog</span> Milou</h2>
+			</div>
+			<div class="slide" data-content="content-2">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<img class="zoomer__image" src="images/cubitus.png" alt="Cubitus" />
+						<div class="preview">
+							<div class="zoomer__area zoomer__area--size-4"></div>
+
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>The Cute dog</span> Cubitus</h2>
+			</div>
+			<div class="slide" data-content="content-3">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<img class="zoomer__image" src="images/snoopy.png" alt="Snoopy" />
+						<div class="preview">
+							<div class="zoomer__area zoomer__area--size-4"></div>
+
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>The Wise dog</span> Snoopy</h2>
+			</div>
+			<div class="slide" data-content="content-4">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<img class="zoomer__image" src="images/scoobydoo.png" alt="Scooby Doo" />
+						<div class="preview">
+							<div class="zoomer__area zoomer__area--size-4"></div>
+
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>The Bright dog</span> Scooby Doo</h2>
+			</div>
+			<div class="slide" data-content="content-5">
+				<div class="slide__mover">
+					<div class="zoomer flex-center">
+						<img class="zoomer__image" src="images/rantanplan.png" alt="Apple Watch" />
+						<div class="preview rounded">
+							<div class="zoomer__area zoomer__area--size-4"></div>
+
+						</div>
+					</div>
+				</div>
+				<h2 class="slide__title"><span>The Fast dog</span> Rantanplan</h2>
+			</div>
+			<nav class="slider__nav">
+				<button class="button button--nav-prev"><i class="icon icon--arrow-left"></i><span class="text-hidden">Previous product</span></button>
+				<button class="button button--zoom"><i class="icon icon--zoom"></i><span class="text-hidden">View details</span></button>
+				<button class="button button--nav-next"><i class="icon icon--arrow-right"></i><span class="text-hidden">Next product</span></button>
+			</nav>
+		</section>
+		<!-- /slider-->
+		<section class="content">
+			<div class="content__item" id="content-1">
+				<img class="content__item-img rounded-right" src="images/milou.png" alt="Apple Watch Content" />
+				<div class="content__item-inner">
+					<h2>Milou</h2>
+					<h3>The tidy dog</h3>
+					<p>Milou is the perfect dog if you are a fashion victim, or if you just love make up, getting ready, accessorize your style etc... He will share your hobbies like no one.</p>
+					<p><a href="https://fr.wikipedia.org/wiki/Labrador_retriever">Learn more about him &xrarr;</a></p>
+				</div>
+			</div>
+			<div class="content__item" id="content-2">
+				<img class="content__item-img rounded-right" src="images/cubitus.png" alt="Cubitus" />
+				<div class="content__item-inner">
+					<h2>Cubitus</h2>
+					<h3>The cute dog</h3>
+					<p>Cubitus is the cutest dog you can imagine. You'll melt every morning he's going to wake you up. He is also really nice with children, especially babies.</p>
+					<p><a href="https://fr.wikipedia.org/wiki/Berger_australien">Learn more about him &xrarr;</a></p>
+				</div>
+			</div>
+			<div class="content__item" id="content-3">
+				<img class="content__item-img rounded-right" src="images/snoopy.png" alt="Snooby" />
+				<div class="content__item-inner">
+					<h2>Snoopy</h2>
+					<h3>The wise dog</h3>
+					<p>It's true that snoopy looks a bit older than ther others, but he is very calm and nice. He sleeps a lot, so he will be a good companion for sedentary people.</p>
+					<p><a href="https://fr.wikipedia.org/wiki/B%C3%A2tard">Learn more about him &xrarr;</a></p>
+				</div>
+			</div>
+			<div class="content__item" id="content-4">
+				<img class="content__item-img rounded-right" src="images/scoobydoo.png" alt="Scooby Doo" />
+				<div class="content__item-inner">
+					<h2>Scooby Doo</h2>
+					<h3>The bright dog</h3>
+					<p>Scooby is the perfect dog if you need a partner to your investigations. He is brilliant, has a super sense of smell and is truly friendly of course.</p>
+					<p><a href="https://fr.wikipedia.org/wiki/Berger_allemand">Learn more about him &xrarr;</a></p>
+				</div>
+			</div>
+			<div class="content__item" id="content-5">
+				<img class="content__item-img rounded-right" src="images/rantanplan.png" alt="Rantanplan" />
+				<div class="content__item-inner">
+					<h2>Rantanplan</h2>
+					<h3>The fast dog</h3>
+					<p> If you need to catch a thief who just stole your sandwich,  you can be sure that Rantanplan is the dog of the situation. He will run as fast as lightning to stop the thief, take your sandwich back even without crunching in it. May be your food will be full of slobber, but you'll have it. </p>
+					<p><a href="https://fr.wikipedia.org/wiki/Bouledogue">Learn more about him &xrarr;</a></p>
+				</div>
+			</div>
+			<button class="button button--close"><i class="icon icon--circle-cross"></i><span class="text-hidden">Close content</span></button>
+		</section>
+	</div>
+	<script src="js/classie.js"></script>
+	<script src="js/dynamics.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
